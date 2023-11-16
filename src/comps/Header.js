@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-<div className="hero mobile:h-64 tablet:h-80  h-auto" style={{backgroundImage: 'url(/img/bf-hero.jpg)'}}>
+<div className="hero mobile:h-64 tablet:h-80  h-auto" style={{backgroundImage: 'url(https://bfpodepfinder-api.onrender.com/img/bf-hero.jpg)'}}>
   <div className="hero-overlay mobile:h-64 tablet:h-80 bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">

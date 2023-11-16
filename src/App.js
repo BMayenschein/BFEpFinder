@@ -14,7 +14,7 @@ const App = () => {
   
   const searchForEpisode = async () => {
     resetSearch();
-    const res = await fetch("/findEpisodes", {
+    const res = await fetch("https://bfpodepfinder-api.onrender.com/findEpisodes", {
       method: "POST",
       headers: {
           "Content-Type": "application/json",
